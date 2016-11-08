@@ -1,0 +1,20 @@
+//Thomas Hollinger
+//Moving Circle
+//November 8, 2016
+int x = 0;
+int y = x + 1;
+int speed = 1;
+void setup()
+{
+  size(500,500);
+  println("I'm starting up");
+}
+
+void draw()
+{
+  background(#17FFEE);
+  fill(#FAC412);
+  ellipse(x,y,50,50);
+  x = x + speed;
+  y = x + x;
+}

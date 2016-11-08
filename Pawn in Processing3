@@ -1,0 +1,12 @@
+// Pawn
+size(1000,1000);
+background(0);
+ellipseMode(CENTER);
+noStroke();
+rect(375,300,225,400);
+fill(0);
+ellipse(275,500,400,600);
+ellipse(725,500,400,600);
+fill(255,255,255);
+ellipse(500,200,150,150);
+ellipse(500,300,200,75);
